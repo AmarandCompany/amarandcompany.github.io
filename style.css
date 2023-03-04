@@ -19,7 +19,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'LEMONMILK', sans-serif;
-    animation: pulse-body .7s ease-out infinite alternate-reverse;
+    animation: pulse-body 1s ease-out infinite alternate-reverse;
 }
 @keyframes pulse-body {
     0% {
@@ -28,13 +28,13 @@ body {
     }
     100% {
         border-width: 30px;
-        letter-spacing: 8px;
+        letter-spacing: 4px;
     }
 }
 h1 {
     color: #d3294a;
     font-size: 80px;
-    animation: pulse-text .7s ease-out infinite alternate-reverse;
+    animation: pulse-text 1s ease-out infinite alternate-reverse;
 }
 @keyframes pulse-text {
     0% {
