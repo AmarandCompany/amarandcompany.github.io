@@ -12,15 +12,35 @@ html, body {
     height: 100%;
 }
 body {
-    background: white;
+    background: #111;
     border: 20px solid #d3294a;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'LEMONMILK', sans-serif;
+    animation: pulse-body .7s ease-out infinite alternate-reverse;
+}
+@keyframes pulse-body {
+    0% {
+        border-width: 20px;
+        letter-spacing: 0;
+    }
+    100% {
+        border-width: 30px;
+        letter-spacing: 8px;
+    }
 }
 h1 {
     color: #d3294a;
-    font-size: 70px;
+    font-size: 80px;
+    animation: pulse-text .7s ease-out infinite alternate-reverse;
+}
+@keyframes pulse-text {
+    0% {
+        font-size: 80px;
+    }
+    100% {
+        font-size: 70px;
+    }
 }
