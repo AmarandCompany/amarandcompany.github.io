@@ -33,14 +33,14 @@ body {
 }
 h1 {
     color: #d3294a;
-    font-size: 80px;
+    font-size: 9vw;
     animation: pulse-text 1s ease-out infinite alternate-reverse;
 }
 @keyframes pulse-text {
     0% {
-        font-size: 80px;
+        font-size: 9vw;
     }
     100% {
-        font-size: 70px;
+        font-size: 8vw;
     }
 }
